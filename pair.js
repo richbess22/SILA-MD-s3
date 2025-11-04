@@ -15,7 +15,6 @@ const api = `https://api-dark-shan-yt.koyeb.app`;
 const apikey = `1c5502363449511f`;
 const { initUserEnvIfMissing } = require('./settingsdb');
 const { initEnvsettings, getSetting } = require('./settings');
-const { pickRandom } = require('./loft/function.js');
 //=======================================
 const autoReact = getSetting('AUTO_REACT')|| 'on';
 
@@ -67,7 +66,7 @@ function generateListMessage(text, buttonTitle, sections) {
         text: text,
         footer: config.BOT_FOOTER,
         title: buttonTitle,
-        buttonText: "ꜱᴇʟᴇᴄᴛ",
+        buttonText: "Sila",
         sections: sections
     };
 }
@@ -635,7 +634,7 @@ case 'menu': {
               await socket.sendMessage(msg.key.remoteJid, { react: { text: "🤖", key: msg.key }}, { quoted: msg });
               const freebotMsg = `👻 *CONNECT FREE BOT*\n\n` +
                 `To connect 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚂𝙸𝙻𝙰 𝙼𝙳 to your WhatsApp:\n\n` +
-                `1. Visit our website https://sila-md-mini-bot1-507dd2dad904.herokuapp.com/ or\n` +
+                `1. Visit our website https://sila-md-mini-bot.onrender.com or\n` +
                 `2. Use the pairing system\n` +
                 `3. Get your personal bot instance\n\n` +
                 `*Features:*\n` +
