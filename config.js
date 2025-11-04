@@ -1,0 +1,21 @@
+module.exports = {
+    AUTO_VIEW_STATUS: 'true',
+    AUTO_LIKE_STATUS: 'true',
+    AUTO_RECORDING: 'true',
+    AUTO_LIKE_EMOJI: ['🧩', '🍉', '💜', '🌸', '🪴', '💊', '💫', '🍂', '🌟', '🎋', '😶‍🌫️', '🫀', '🧿', '👀', '😘', '🚩', '🥰', '🗿', '💜', '💙', '🌝', '🖤', '💗'],
+    PREFIX: '.',
+    MAX_RETRIES: 3,
+    GROUP_INVITE_LINK: 'https://chat.whatsapp.com/C03aOCLQeRUH821jWqRPC6',
+    ADMIN_LIST_PATH: './admin.json',
+    IMAGE_PATH: 'https://files.catbox.moe/ebj284.jpg',
+    NEWSLETTER_JID: '120363422610520277@newsletter',
+    NEWSLETTER_MESSAGE_ID: '5775',
+    OTP_EXPIRY: 300000,
+    NEWS_JSON_URL: '',
+    BOT_NAME: '𝚂𝙸𝙻𝙰 𝙼𝙳',
+    OWNER_NAME: '𝚂𝙸𝙻𝙰',
+    OWNER_NUMBER: '255612491554',
+    BOT_VERSION: '1.0.0 ʙᴇᴛᴀ',
+    BOT_FOOTER: '> © 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚂𝙸𝙻𝙰 𝙼𝙳',
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbBPxQTJUM2WCZLB6j28'
+};
